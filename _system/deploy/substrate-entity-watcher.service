@@ -1,0 +1,40 @@
+# systemd user unit for the Substrate entity watcher (Linux).
+#
+# Installed as a user unit — no root required.
+#
+# Placeholders — substitute before installing:
+#   __WORKSPACE__   absolute path to the workspace root (e.g. /home/alice/substrate)
+#   __ENGINE__      absolute path to the engine install (e.g. /home/alice/.substrate/engine)
+#   __HOME__        user's home directory (e.g. /home/alice)
+#
+# Install (handled automatically by `substrate init`):
+#   install -Dm644 substrate-entity-watcher.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now substrate-entity-watcher
+#
+# Status / logs:
+#   systemctl --user status substrate-entity-watcher
+#   journalctl --user -u substrate-entity-watcher -f
+#
+# Note: entity-watcher.py depends on the watchdog package. The venv must be
+# set up in __WORKSPACE__/_system/venv/ before the service will start.
+
+[Unit]
+Description=Substrate Entity Watcher — auto-bumps last_edited on entity content changes
+After=default.target
+
+[Service]
+Type=simple
+WorkingDirectory=__WORKSPACE__
+Environment=HOME=__HOME__
+Environment=PATH=__HOME__/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=SUBSTRATE_PATH=__WORKSPACE__
+Environment=SUBSTRATE_ENGINE_PATH=__ENGINE__
+ExecStart=__WORKSPACE__/_system/venv/bin/python3 __ENGINE__/_system/scripts/entity-watcher.py
+Restart=always
+RestartSec=5
+StandardOutput=append:__WORKSPACE__/_system/logs/entity-watcher.log
+StandardError=append:__WORKSPACE__/_system/logs/entity-watcher-error.log
+
+[Install]
+WantedBy=default.target
