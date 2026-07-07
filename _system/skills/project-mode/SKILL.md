@@ -43,6 +43,19 @@ re-implement them in this skill:
 This skill builds only the moves Beverly does not already have: **Artifact,
 Interview, the two Gates, and Integrate-into-Substrate.**
 
+**Why these three aren't arbitrary borrowings.** Plan → Options → Restart is the
+same discipline already encoded as `engagement_mode` in Substrate's own schema
+(wander → explore → experiment → execute) — explore freely, compare approaches,
+only then commit; premature commitment is a validation error there, not just bad
+practice. And Restart's premise — that the first pass is for learning, not the
+final version — is Principle 2, **Start, Then Iterate**, applied to a build
+session: start before you're fully ready, treat the first conversation as an
+experiment rather than a commitment to getting it right immediately. Both
+connections surfaced independently (via a Beverly/ChatGPT-Atlas synthesis
+session, 2026-07-07) from watching how Project Mode is actually used — which is
+itself evidence the arc fits her existing operating model rather than imposing a
+foreign one.
+
 ## When to reach for it / when not to
 
 **Reach for it when:** building a system; creating a reusable artifact used across
