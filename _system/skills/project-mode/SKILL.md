@@ -127,6 +127,27 @@ exists rather than reinventing it:
   load the Karlsson style profile if an influence lens is wanted
 - Tana / Substrate structure → the relevant entity/schema/Tana workflow
 
+**Decomposition patterns (earned in live runs — reach for these when the artifact
+is a multi-part structure, e.g. a matter mapped onto the Status Board):**
+
+- *Reusable template, instantiated per party.* Where several parties/items take an
+  identical set, define the set once and instantiate it in parallel; vary only the
+  small differing piece (e.g. a per-party count).
+- *Combined-vs-standalone parallel sets.* A multi-party deal may split so some
+  parties share ONE combined document set while another stands alone with its OWN
+  full duplicate — structure as parallel groups under the same tier, labeled by
+  which parties each covers. Don't assume one shared set for all.
+- *Skeleton-complete, depth-where-live.* Build the FULL map (every tier/ticket) so
+  the whole thing is scoped and legible, but only materialize leaf tasks under the
+  parts that are actually live; leave the rest as neutral placeholder tickets
+  (marked 📑, "expand at closing prep") and explode them when that part goes live.
+  Prevents burying live work under dozens of idle tasks — and serves the Decision
+  Gate's "simpler artifact?"
+- *Confidentiality cross-reference.* Privileged specifics live in a private node
+  whose *title is neutral* (details in children); the shared surface shows only a
+  neutral reference (+ optional checkbox to track implementation). Guards human/
+  visual exposure — NOT agent access, which a loaded workspace always permits.
+
 If context has drifted, Restart into a fresh session first.
 
 ### Phase 5 — Validate & Integrate
@@ -176,5 +197,8 @@ paper (the Decision Gate applied to the framework itself). Iterate from friction
 map — Clarity Lenses / Wisdom Audit invoked at the right gates; the bounded Joe
 Hudson fit for coaching-shaped artifacts) live in Substrate decision `498c4f05` →
 `build-spec.md`. Fold them into this skill at true Integrate, AFTER a build
-completes — not before. First drive: the Status Board ticket framework (design
-locked; build pending a fresh session with `tana-local` loaded).
+completes — not before. **First full run: PRIEN-LAKE-AH decomposition (2026-07-08)
+— completed;** the four Decomposition patterns above were folded in from it (see
+decision `8fcb7c59`). Older v1.1 candidates (lens-at-gate map, Joe Hudson fit,
+Known/Unknown vocabulary) remain parked — this run didn't exercise them, so the
+skill's own Decision Gate holds them until one does.
