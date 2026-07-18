@@ -148,6 +148,23 @@ is a multi-part structure, e.g. a matter mapped onto the Status Board):**
   neutral reference (+ optional checkbox to track implementation). Guards human/
   visual exposure — NOT agent access, which a loaded workspace always permits.
 
+**Document-review pattern (earned in live runs — reach for this when the artifact
+is a transaction-document review with a client-communication component):**
+
+1. **Solo Tana meeting.** Beverly's low-friction first-pass capture — a voice-agent
+   conversation with herself, raw reactions to the documents, no structure imposed
+   yet. Happens outside this skill, before Phase 4 build work starts here.
+2. **Structured review with Claude.** The `contract/agreement drafting` hand-off
+   above: iterative, provision-by-provision, consistency/contradiction pass first,
+   redline-ready language, severity-ranked issues.
+3. **Client-dialogue script (available when warranted, not automatic).** A Loom
+   script explaining documents/provisions to the client in accessible,
+   non-overwhelming language, built from step 2's output. Not every provision
+   earns one — flag *which* areas benefit from advance client explanation versus
+   which Beverly should just handle without it, so the step doesn't add overhead
+   where the value isn't there. Naming that split is Claude's job going into this
+   step, not just the drafting once told.
+
 If context has drifted, Restart into a fresh session first.
 
 ### Phase 5 — Validate & Integrate
