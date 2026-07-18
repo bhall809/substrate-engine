@@ -148,6 +148,35 @@ dynamic, the most effective response is brevity and focus. Don't rebut —
 redirect. A shorter, more focused letter demonstrates discipline and signals
 where the real conversation should be.
 
+### Informal client-to-party correspondence
+
+Sometimes the user needs language for the *client* to send directly to the
+other party — not an attorney letter on letterhead. The register shifts (first
+person, personal, no caption or case reference) but the AoA principles still
+apply, often more visibly because there's no formal structure to lean on:
+
+- **Decline/counter without over-explaining**: State what doesn't work and
+  offer an alternative in the same sentence. No apology beyond a brief "I'm
+  sorry that doesn't work" — don't justify the conflict.
+- **Set logistical boundaries plainly**: Who can be present, where an
+  exchange will happen, what's in or out of scope. State it once, directly,
+  without hedging or over-justifying — "I think it's best handled directly,
+  respectfully, and with as few people involved as possible" is enough
+  reasoning; it doesn't need defending.
+- **Reduce friction proactively**: If there's a way to make the interaction
+  easier (items pre-staged, a narrower physical area, fewer logistics), offer
+  it before being asked — it signals good faith without conceding position.
+- **Get ahead of outstanding obligations**: If something is owed (a payment,
+  a document, a calculation under the agreement), name it and say it's already
+  in motion, rather than waiting for the other side to raise it. This is the
+  AoA "anchored to the outcome" principle applied to follow-through, not just
+  tone.
+
+This register is shorter and plainer than attorney correspondence, but the
+same discipline applies: don't narrate intentions ("I want to address..."),
+don't over-justify boundaries, and close each point once instead of restating
+it.
+
 ### Closing with goodwill
 
 End with genuine warmth toward the shared outcome. This only works if it's
